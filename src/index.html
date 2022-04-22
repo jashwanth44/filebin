@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Filebin-share files anonymously</title>
+        <link rel="stylesheet" type="text/css" href="/src/styles/style..css">
+        <link rel="icon" href="/src/assets/favicon.ico" type="image/x-icon">
+        <script src="/src/scripts/script.js" defer></script>        
+    </head>
+    <body>
+        <div class="root">
+            <nav>
+                <p id="ul-view" >Back to <a href="#">Upload</a></p>
+
+                <p  id="dl-view">Have a link? <a href="/download">Download</a></p>
+            </nav>
+            <div class="upload" id="ul-section">
+                <p class="large-text">Max size allowed - 20MB</p>
+                <div class="file-select">
+                    <input class="large-text" type="file" id="file-input" name="user_file">
+                    <button class = "upload large-text" id="ul-btn">Upload</button>
+                </div>   
+            </div>
+            <p class="msg large-text" id="msg-box"></p>
+            <p class="msg link-text xl-text" id="link-text"></p>
+            <div class="download" id="dl-section">
+                <p class="xl-text">Please Paste your download link here</p>
+                <input class="large-text" id="dl-link" type="text" name="download-link">
+                <button class = "download large-text" id="dl-btn">Download</button>
+            </div>
+
+        </div>        
+    </body>
+</html>
